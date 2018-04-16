@@ -104,7 +104,10 @@ h2.tagline span { color: #e9e9e9; }
 .project-img .project-hover { opacity: 0; position: absolute; margin: 0 auto; left: 0; right: 0; top: 35%; text-align: center; transition: all 0.3s linear; }
 @media screen and (max-width: 960px) { .project-img .project-hover img { width: 50%; } }
 .project-img .project-hover .view-btn { border: 2px solid #fff; color: #fff; font-family: "Lato", sans-serif; font-weight: 700; display: inline-block; text-transform: uppercase; letter-spacing: 2px; padding: 0.8em 1.2em; margin-top: 1.8em; font-size: 0.75em; }
-
+.project-img .project-hover .view-btn:hover {
+	background: #fff;
+	color: #a7d2cd;
+}
 .project-info { text-align: center; }
 
 .project-title { text-transform: uppercase; font-weight: 300; font-size: 1em; color: #999999; margin-top: 1.5em; }
@@ -116,7 +119,7 @@ h2.tagline span { color: #e9e9e9; }
 .project-tags span { color: #e9e9e9; }
 
 .project-container:hover .project-img { background: #a7d2cd; }
-.project-container:hover .project-img img.main-img { opacity: 0; }
+.project-container:hover .project-img img.main-img { opacity: 0.3; }
 .project-container:hover .project-img .project-hover { opacity: 1; }
 
 .portfolio-img_container { display: none; }
