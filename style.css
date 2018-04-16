@@ -140,10 +140,11 @@ h2.tagline span { color: #e9e9e9; }
 .ss-form #ss-submit:hover { background: #85c1ba; }
 
 @media only screen and (min-width: 64.0625em) {
-.large-6.medium-6.columns {
+.large-6.medium-6.columns, .large-12.columns {
     position: relative;
-    padding-left: 3.9375em;
-    padding-right: 3.9375em;
+    padding-left: 2.9375em;
+    padding-right: 2.9375em;
+    margin-bottom: 1em;
     }
 }
 
