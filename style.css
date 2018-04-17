@@ -41,7 +41,7 @@ a:hover { color: #a7d2cd; }
 }
 
 @media screen and (min-width: 850px) {
-	.mobile-only.view-site {
+	.mobile-only {
 		display: none;
 	}
 }
