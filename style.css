@@ -33,7 +33,7 @@ a:hover { color: #a7d2cd; }
 .button { border: 2px solid #a7d2cd; background: #a7d2cd; color: #fff; padding: 0.5em 0.8em; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8em; font-weight: 700; transition: all 0.3s linear; }
 .button:hover { background: #fff; color: #a7d2cd; }
 
-.view-site { margin: 1.5em; display: inline-block; }
+.view-site { margin: 1.5em 0; display: inline-block; }
 @media screen and (max-width: 460px) {
 	.view-site {
 		margin: 1em 0 0 0;
@@ -64,7 +64,7 @@ h2.tagline span { color: #e9e9e9; }
 .nav-container path { opacity: 0.5; }
 .nav-container .nav { list-style-type: none; margin: 0; padding: 0; }
 .nav-container li { position: relative; font-family: 'Lato', sans-serif; }
-.nav-container a { text-decoration: none; height: 100%; width: 100%; line-height: 50px; color: #fff; text-transform: uppercase; padding: 0.5em 1em; letter-spacing: 1px; transition: all 0.3s linear; }
+.nav-container ul li a { text-decoration: none; height: 100%; width: 100%; line-height: 50px; color: #fff; text-transform: uppercase; padding: 0.5em 1em; letter-spacing: 1px; transition: all 0.3s linear; }
 .nav-container .active a { color: #fff; border: 2px solid #fff; outline: 0; }
 .nav-container li:not(.active):hover a { border: 2px solid #fff; }
 .nav-container span[class^="icon"] { display: none; }
