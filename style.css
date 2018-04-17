@@ -33,7 +33,18 @@ a:hover { color: #a7d2cd; }
 .button { border: 2px solid #a7d2cd; background: #a7d2cd; color: #fff; padding: 0.5em 0.8em; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8em; font-weight: 700; transition: all 0.3s linear; }
 .button:hover { background: #fff; color: #a7d2cd; }
 
-.view-site { margin: 1.5em 0; display: inline-block; }
+.view-site { margin: 1.5em; display: inline-block; }
+@media screen and (max-width: 460px) {
+	.view-site {
+		margin: 1em 0 0 0;
+	}
+}
+
+@media screen and (min-width: 850px) {
+	.mobile-only.view-site {
+		display: none;
+	}
+}
 
 .no-padding { padding: 0 !important; }
 
