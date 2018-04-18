@@ -162,3 +162,12 @@ h2.tagline span { color: #e9e9e9; }
     }
 }
 
+.social-icons a {
+	text-decoration: none;
+    line-height: 50px;
+    padding: 0.5em 1em;
+    letter-spacing: 1px;
+    transition: all 0.3s linear;
+}
+}
+
