@@ -23,7 +23,17 @@ h4 { font-size: 1.2em; }
 
 h5 { font-size: 1em; }
 
-p { font-family: 'Crimson Text', Tahoma, Verdana, serif; font-style: italic; color: gray; margin-top: 0.5em; line-height: 1.6; }
+p { 
+    /*font-family: 'Crimson Text', Tahoma, Verdana, serif; 
+    font-style: italic; color: gray; 
+    margin-top: 0.5em; 
+    line-height: 1.6; */
+    font-family: 'Lato';
+    color: gray;
+    margin-top: 0.5em;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+}
 
 * { box-sizing: border-box; }
 
